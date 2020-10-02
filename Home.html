@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title> Home -Silver Oak Privet Hospital </title>
+	
+		<meta name = "viewport" content="width = device-width,initial-scale=1">
+		
+			<style>
+			
+			
+					[class*="col-"]{
+						width:100%
+						}
+			
+					* {
+					box-sizing:border-box;
+					}
+					
+					[class*="col-"]{
+						
+						float:left;
+						padding:5px;
+						}
+					
+					
+	@media only screen and (max-width:500px){
+					.col-1 {width: 8.33%;}
+					.col-2 {width: 16.66%;}
+					.col-3 {width: 25%;}
+					.col-4 {width: 33.33%;}
+					.col-5 {width: 41.66%;}
+					.col-6 {width: 50%;}
+					.col-7 {width: 58.33%;}
+					.col-8 {width: 66.66%;}
+					.col-9 {width: 75%;}
+					.col-10 {width: 83.33%;}
+					.col-11 {width: 91.66%;}
+					.col-12 {width: 100%}
+				}	
+				
+				
+				@media only screen and (min-width:600px){
+					.col-1 {width: 8.33%;}
+					.col-2 {width: 16.66%;}
+					.col-3 {width: 25%;}
+					.col-4 {width: 33.33%;}
+					.col-5 {width: 41.66%;}
+					.col-6 {width: 50%;}
+					.col-7 {width: 58.33%;}
+					.col-8 {width: 66.66%;}
+					.col-9 {width: 75%;}
+					.col-10 {width: 83.33%;}
+					.col-11 {width: 91.66%;}
+					.col-12 {width: 100%}
+				}	
+				
+				@media only screen and (min-width:768px){
+					.col-1 {width: 8.33%;}
+					.col-2 {width: 16.66%;}
+					.col-3 {width: 25%;}
+					.col-4 {width: 33.33%;}
+					.col-5 {width: 41.66%;}
+					.col-6 {width: 50%;}
+					.col-7 {width: 58.33%;}
+					.col-8 {width: 66.66%;}
+					.col-9 {width: 75%;}
+					.col-10 {width: 83.33%;}
+					.col-11 {width: 91.66%;}
+					.col-12 {width: 100%}
+				}	
+				
+					
+				
+				.header{
+					background-color:#004080;
+					font-size:20px;
+					color:white;
+					padding:10px;
+				}
+				
+					input[type=text]{
+					box-sizing:border-box;
+					border: 2px solid #ccc;
+					border-radius:4px;
+					font-size:16px;
+					background-color:white;
+					background-image:url('searchicon.png');
+					background-position:10px 10px;
+					background-repeat: no-repeat;
+					-webkit-transition: width 0.4s ease-in-out;
+					transition: width 0.4s ease-in-out;
+					}
+				
+				.name{
+					background-color:#e6f2ff;
+				
+				}
+				
+					h1{
+						text-align:center;
+						font-size:50px;
+					}
+				
+					h2{
+						text-align:center;
+					}
+				
+					img{
+						margin:auto;
+						display:block;
+					}
+				
+				
+				
+				dropdown1{
+				}
+					
+					.dropbtn {
+						background-color: #ffffff;
+						color:black;
+						padding: 25px;
+						font-size: 30px;
+						border: none;
+						cursor: pointer;
+	
+					}
+
+
+					.dropdown {
+						position: relative;
+						display: inline-block;
+					}
+
+
+					.dropdown-content {
+						display: none;
+						position: relative;
+						background-color: lightblue;
+						min-width:100%;
+						box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+						z-index: 1;
+					}
+
+
+					.dropdown-content a {
+						color: black;
+						padding: 12px 16px;
+						text-decoration: none;
+						display: block;
+					}
+
+
+					.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+						.dropdown:hover .dropdown-content {
+						display: block;
+					}
+
+
+					.dropdown:hover .dropbtn {
+					background-color: #e6f2ff;
+					}
+					
+					
+					
+							
+				
+				
+				
+				
+				
+				.video{
+					display:auto;
+					margin:block;
+				}
+				
+				
+				.link2 h2{
+					
+				}
+				
+					.i1 img{
+					width:300px;
+					height:500px;
+					}
+				
+				
+				.para p{
+				font-size:20px;
+				font-family:arial;
+				
+				}
+				
+				.ufooter{
+					background-color:white;
+				}
+				
+					.sm{
+						height:350px;
+						text-align:center;
+						color:white;
+					}
+				
+				
+				.footer{
+					background-color:#004080;
+					font-size:20px;
+					color:white;
+					padding:10px;
+				}
+				
+				a:link {
+				text-decoration: none;
+				}
+
+				a:visited {
+				text-decoration: none;
+				}
+
+				a:hover {
+				color:black;
+				text-decoration: underline;
+				}
+
+				a:active {
+				text-decoration: underline;
+				}
+				
+				
+				
+				
+			
+			</style>
+</head>
+
+
+<body>
+		
+		
+		<div class="header col-12">
+		
+			<div class="col-10">
+		
+				&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp <a href="findYourDoctor.html" style="color:white"> Find Your Doctor </a>  &nbsp&nbsp&nbsp | 	&nbsp&nbsp&nbsp <a href="appoinment.html" style="color:white"> Make An Appointment </a>
+			</div>
+			
+			<div class="col-2">
+				<form>
+				<input type="text" name="search" placeholder="Search">
+				</form>
+			</div>
+		
+		</div>
+		
+		
+		<div class="name col-12">
+		
+			<div class="col-3">
+				<img src="img/1.jpg"/>
+			</div>
+			
+			
+			<div class="col-6">
+				<h1> Silver Oak private Hospital </h1>
+				<hr>
+				<h2> Way To The Healthy Life </h2>
+				
+			</div>
+			
+			<div class="col-3">
+				<img src="img/1.jpg"/>
+			</div>
+		
+		</div>
+		
+		
+		
+		<div class="dropdown1 col-12">
+		
+		<table align="center">
+		<tr>
+		<td>
+		
+			<button class="dropbtn" >Home &nbsp&nbsp &nbsp&nbsp</button>
+				
+		</td>
+		<td>
+		<div class="dropdown ">
+			<button class="dropbtn ">About us&nbsp&nbsp  &nbsp&nbsp</button>
+				<div class="dropdown-content">
+		
+					<a href="about.html">Our Mission</a>
+					<a href="about.html.#V"> Our Vision</a>
+					<a href="about.html.#H">Our History</a>
+					<a href="about.html.#C"> Our Commitment</a>
+					<a href="about.html.#P">Patient Safety</a>
+				</div>
+		</div>
+		
+		</td>
+		<td>
+		
+		<div class="dropdown ">
+			<button class="dropbtn ">Services&nbsp&nbsp  &nbsp&nbsp</button>
+				<div class="dropdown-content">
+		
+					<a href="ambulance.html"> Ambulance</a>
+					<a href="clinic.html"> Clinic</a>
+					<a href="findYourDoctor.html"> Find Your Doctor</a>
+					<a href="charges.html"> Charges</a>
+					<a href="dental.html"> Dental</a>
+		
+				</div>
+		</div>
+		
+		</td>
+		<td>
+		
+		<div class="dropdown ">
+			<button class="dropbtn ">News &nbsp&nbsp  &nbsp&nbsp</button>
+				<div class="dropdown-content">
+		
+					<a href="News.html">First medical institution</a>
+					<a href="News.html.#world"> World Heart Day</a>
+					<a href="News.html.#win">win awards for excellence</a>
+				</div>
+		</div>
+		
+		</td>
+		<td>
+		
+		
+		<div class="dropdown ">
+			<button class="dropbtn ">Feedback &nbsp&nbsp  &nbsp&nbsp</button>
+				<div class="dropdown-content">
+		
+					<a href="feedback.html">Feed Back Form</a>
+					
+				</div>
+		</div>
+		
+		</td>
+		<td>
+				
+		<div class="dropdown">		
+				<button class="dropbtn ">Contact Us &nbsp&nbsp &nbsp&nbsp</button>
+				<div class="dropdown-content">
+		
+					<a href="contactus.html">Contact Us</a>
+					
+		
+				</div>
+				
+		</div>
+		
+		</td>
+		</tr>
+		</table>
+		
+		
+		
+		</div>	
+		
+		
+		
+		
+		
+		<div class="video ">
+		
+				<video height="500px" width="1500px" float="center" autoplay>
+		
+				<source src="1.mp4" type="video/mp4">
+				</video>
+		</div>
+		
+		<div class="para">
+			<p>
+			With a mission to improve patient safety and quality of health care across the world, JCI provides international accreditation 
+			and certification as well as education, publications and advisory services in over 100 countries. JCI has also partnered with government 
+			ministries, academia, international advocates, health systems and agencies, hospitals, 
+			clinics as well as academic medical centres to help them maintain optimal performance through rigorous standards in health care.
+			</p>
+		</div>
+		
+		
+		<div class="link2 col-12">
+		
+			<div class="i1 col-3">
+				<img src="img/3.jpg">
+			</div>
+			
+			<div class="i2 col-6">
+			
+				<table align="center">
+				<tr>
+				<td> <a href="findYourDoctor.html"> <img src="img/l1.jpg"> </a> </td>
+				<td> <a href="appoinment.html"> <img src="img/l2.jpg"> </a> </td>
+				</tr>
+				
+				<tr>
+				<td> <a href="findplace.html"> <img src="img/l3.jpg"> </a> </td>
+				<td> <a href="ambulance.html"> <img src="img/l4.jpg"> </a> </td>
+				</tr>
+				</table>
+			</div>
+			<div class="i1 col-3">
+				<img src="img/3.jpg">
+			</div>
+		
+		
+		</div>
+		<h2 align="center"style="color:#004080">...........................................................................................................CONTACT US........................................................................................................... </h2>
+			<table align="center">
+			<tr>
+			<td><img src="img/i1.jpg"></td>
+			<td><img src="img/i2.jpg"></td>
+			<td><img src="img/i3.jpg"></td>
+			<td><img src="img/i4.jpg"></td>
+			<td><img src="img/i5.jpg"></td>
+			<td><img src="img/i6.jpg"></td>
+			<td><img src="img/i7.jpg"></td>
+			<td><img src="img/i8.jpg"></td>
+			<td><img src="img/i9.jpg"></td>
+			</tr>
+			</table>
+		<div class="ufooter col-12">
+		
+				<div class="col-1">
+
+				</div>
+		
+				<div class="sm col-2" style="background-color:#99bbff">
+				
+					<h2> Face Book </h2>
+					
+					<p style="font-color:black">.................................................</p>
+					<p>Follow Us Via <br>
+						<b>Face Book </b></p>
+					<p> Join our Face Book page </p>
+					
+					<p style="font-color:black">.................................................</p>
+					 
+					  <br>Like Us 
+					  <br>Comment us 
+					  <br>Share Post 
+					 
+					
+					
+					<p> Join our Face Book page </p>
+					 
+					
+				
+				</div>
+				
+				
+				<div class="sm col-2" style="background-color:#a3c2c2">
+					<h2> Twitter </h2>
+				
+					
+					<p style="font-color:black">.................................................</p>
+					<p>Contact Us Via <br>
+						<b>Twitter </b></p>
+					<p> Join With Us </p>
+					
+					<p style="font-color:black">.................................................</p>
+					 <p>As a socially responsible healthcare provider, 
+					 achieved this status on its first attempt
+					 and remains among the few hospitals in the world 
+					 to be accredited within a short span of
+					 time under new standards. </p>
+					
+					
+					
+				
+				</div>
+				
+				
+				<div class="sm col-2" style="background-color:#80aaff">
+				
+					<h2>CALL US</h2>
+					
+					<p style="font-color:black">.................................................</p>
+					<p>Make An Appoinment <br>
+						Hire A Ambulance <br>
+						
+						<br><b>Call Us</b></p>
+					
+					
+					<p style="font-color:black">.................................................
+					 
+						<br>011-0213659
+						<br><br>011-3659842
+						<br><br>011-3659872
+						<br><br>011-2569845
+						
+						
+						</p>
+					
+					
+					
+				
+				</div>
+				
+				
+				<div class="sm col-2" style="background-color:#b3cccc">
+				
+					<h2> You Tube </h2>
+					
+					<p style="font-color:black">.................................................</p>
+					<p>View Our New Release Video <br>
+							Via </p>
+					<p> <b> Our YouTube Channel </b> </p>
+					
+					<p style="font-color:black">.................................................</p>
+					 <ul style="text-align:center">
+					 <p>With a mission to improve patient safety and quality 
+					 of health care across the world, JCI provides 
+					 </p>
+					
+					
+					
+				
+				</div>
+				
+				
+				<div class="sm col-2" style="background-color:#6699ff">
+				
+					<h2> Press Articals </h2>
+					
+					<p style="font-color:black">.................................................</p>
+					<p>Read About Us From <br>
+							Articals </p>
+					<p> <b>Our Magazing</b> </p>
+					
+					<p style="font-color:black">.................................................</p>
+					 <p>
+					 </p>Commenting on the latest achievement, Group Chief Executive 
+					 Officer of Lanka Hospitals Dr. Prasad Medawatte noted, “For the
+					 very first attempt under the new standard will once again testify 
+					 </p>
+				
+				</div>
+				
+				<div class="col-1">
+
+				</div>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="footer">
+		
+				<address> Silver Oak Hospital, Narahenpita Road ,Colombo </address>
+		
+		</div>
+		
+		
+		
+
+
+
+
+
+</body>
+</html>
